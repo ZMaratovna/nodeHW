@@ -1,0 +1,25 @@
+{
+  "name": "nodejs_lectures",
+  "version": "1.0.0",
+  "description": "hometasks from lectures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZMaratovna/nodeHW_1.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Zhanna Kaymedenova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZMaratovna/nodeHW_1/issues"
+  },
+  "homepage": "https://github.com/ZMaratovna/nodeHW_1#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
