@@ -36,6 +36,7 @@ const requestHandler = (req, res) => {
         req.method === 'GET'
     ) {
         console.log(`Yay! You sent GET request with ${queryObject.name}!`);
+        res.end();
     }
 
 }
