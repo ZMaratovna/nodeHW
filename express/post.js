@@ -1,5 +1,5 @@
 const axios = require('axios');
-const baseURL = 'http://localhost:8080/api';
+const baseURL = 'http://localhost:8080';
 const name = 'somebody'
 const config = {
     method: 'post',
