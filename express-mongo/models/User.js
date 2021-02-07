@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
 
-const Schema = mongoose.Schema;
-
+const { Schema } = mongoose;
 const userSchema = new Schema(
   {
     name: {
@@ -15,6 +14,9 @@ const userSchema = new Schema(
       required: true,
       trim: true,
       minLengh: 8,
+    },
+    jwt: {
+      type: String,
     }
   },
   { timestamps: true }
