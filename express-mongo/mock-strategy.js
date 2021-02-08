@@ -1,4 +1,4 @@
-const passport = require('passport-strategy');
+const passport = require('passport');
 const util = require('util');
 
 const { User } = require('./models/User');
