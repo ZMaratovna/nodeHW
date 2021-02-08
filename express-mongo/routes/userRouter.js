@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 let { User } = require('../models/User');
 
+// HW3 - send authorization header
+
 // router.use((req, res, next) => {
 //   if (req.headers.iknowyoursecret &&
 //     req.headers.iknowyoursecret === 'TheOwlsAreNotWhatTheySeem') {
