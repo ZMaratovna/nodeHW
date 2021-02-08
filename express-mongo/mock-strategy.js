@@ -34,7 +34,7 @@ const bearerStrategyCallback = (jwt, done) => {
 function Strategy(name, callback) {
   if (!name || name.length === 0) { throw new TypeError('Strategy requires a Strategy name'); }
   passport.Strategy.call(this);
-  this.name = mockUser.name;
+  this.name = name;
   this._user = mockUser;
   this._cb = callback;
 }
